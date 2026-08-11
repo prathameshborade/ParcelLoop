@@ -1,12 +1,12 @@
 import type { Bus } from '../types'
 
-export const ROUTE_STOPS = ['Kopargaon Bus Stand', 'Sanjivani University', 'Rahata Bus Stand', 'Shirdi Bus Stand']
-export const STOPS = [...ROUTE_STOPS, 'Kopargaon Market', 'Shirdi Temple Road']
+export const ROUTE_STOPS = ['Kopargaon Bus Stand', 'Sanjivani University', 'Shirdi Bus Stand']
+export const STOPS = [...ROUTE_STOPS, 'Rahata Bus Stand', 'Kopargaon Market', 'Shirdi Temple Road']
 
 export const BUS_FLEET: Bus[] = [
   {
     id: 'BUS-101',
-    routeLabel: 'Kopargaon -> Sanjivani -> Rahata -> Shirdi',
+    routeLabel: 'Kopargaon -> Sanjivani -> Shirdi',
     stops: ROUTE_STOPS,
     departureTime: '10:15 AM',
     arrivalTime: '10:57 AM',
